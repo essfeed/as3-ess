@@ -17,7 +17,7 @@ EssReader is an AS3 Class to read ESS Feed to present the results in a Flash/Fle
 			public function Main() 
 			{
 				ess = new EssReader();
-				var urlLoader:URLLoader = ess.load( "http://eventstandardsyndication.org/feed/event.ess" );
+				var urlLoader:URLLoader = ess.load( "http://eventstandardsyndication.org/feeds/sample.ess" );
 				urlLoader.addEventListener( Event.COMPLETE,	this.onESSLoaded );
 			}
 			
