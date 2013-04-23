@@ -14,8 +14,6 @@ package com.hypecal.ess
 		
 		public function EssReader() {}
 		
-		
-		
 		public function load( url:String=null ):void
 		{
 			var urlLoader:URLLoader = new URLLoader();
