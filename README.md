@@ -6,7 +6,7 @@ EssReader is an AS3 Class to read ESS Feed to present the results in a Flash/Fle
 
 ## Usage
 
-	import com.hypecal.ess;
+	import com.robby.ess;
 	
 	package 
 	{
